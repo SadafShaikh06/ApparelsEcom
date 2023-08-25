@@ -1,0 +1,281 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px 10px 10px;
+    background: black;
+    color: white;
+}
+
+.header .part1{
+    display: flex;
+    gap: 2rem;
+}
+
+.header .icons{
+    margin: 0 10px;
+}
+
+.header a{
+    color: white;
+    transition: all .2s;
+}
+
+.header a:hover{
+    color: rgb(65,205,226);
+}
+
+nav{
+    padding: 1rem 3rem;
+    display: flex;
+    align-items: center;
+    box-shadow: 1px 7px 44px -23px rgba(0,0,0,0.75);
+    justify-content: space-between;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav ul{
+    display: flex;
+    gap: 3rem;
+}
+
+.navLink {
+    transition: all .2s;
+}
+
+nav ul li:hover .navLink {
+    color: rgb(65,205,226);
+}
+
+.activeClassName{
+    color: rgb(65,205,226);
+}
+
+.logo img{
+    width: 8rem;
+    margin-left: 10%;
+}
+
+#menu-icon {
+    position: fixed;
+    top: 0;
+    right: 2rem;
+    cursor: pointer;
+    padding: 1rem 1.5rem;
+    z-index: 100;
+    font-size: 2rem;
+    display: none;
+  }
+
+.footer{
+    display: flex;
+    background: rgb(245,245,245);
+    padding: 3rem 4rem;
+    font-size: 15px;
+}
+
+.subFooter{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    line-height: 2rem;
+}
+
+.subFooter a, p{
+    color: rgb(134,134,134);
+}
+.subFooter span{
+    transition: all .2s;
+}
+.subFooter span:hover{
+    color: rgb(65,205,226);
+}
+
+.subFooter h4{
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.subFooter .input input{
+    padding: .5rem;
+    width: 15rem;
+    margin-right: .5rem;
+    border: none;
+    background: transparent;
+    border-bottom: 2px solid;
+}
+
+.subFooter .input input:focus{
+    outline: none;
+}
+
+.subFooter .input .icons{
+    vertical-align: -23%;
+    border-bottom: 2px solid black;
+    padding: 0 .2rem;
+    color: black;
+    transition: all .2s;
+    font-size: 17px;
+}
+
+.subFooter .input .icons:hover{
+    color: rgb(65,205,226);
+    border-bottom: 2px solid rgb(65,205,226);
+}
+
+.socialIcons{
+    margin-top: 2rem;
+}
+
+.socialIcons .icons{
+    margin: 2rem 1rem 0 0; 
+    color: black;
+    padding: .8rem; 
+    border-radius: 50%; 
+    background: white;
+    transition: all .3s;
+}
+
+.socialIcons .icons:hover{
+    background-color: rgb(65,205,226);
+    color: white;
+}
+
+.copyrights{
+    padding: 1.2rem 3rem;
+    display: flex;
+    justify-content: space-between;
+    background: rgb(245,245,245);
+    border-top: 1px solid rgb(214, 213, 213);
+}
+
+.copyrights .copyIcon{
+    vertical-align: -10%;
+    font-size: 12px;
+}
+
+
+@media (min-width:1024px){
+
+    .subFooter .input input{
+        width: 10rem;
+    }
+
+    .subFooter .input .icons{
+        vertical-align: -20%;
+    }
+
+    .socialIcons .icons{
+        margin: 2rem .7rem 0 0; 
+    }
+
+}
+
+@media (min-width:768px) and (max-width:1023px){
+
+    .footer{
+        flex-wrap: wrap;
+        padding: 3rem 2rem;
+    }
+    .subFooter{
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+
+    .copyrights{
+        padding: 1.2rem;
+    }
+
+    .copyrights img{
+        width: 50%;
+    }
+
+    nav ul{
+        display: flex;
+        gap: 2rem;
+    }
+
+}
+
+@media (min-width:320px) and (max-width:767px){
+
+    body{
+        padding: 10vh 0 0 0;
+    }
+
+    .header{
+        display: none;
+    }
+
+    .footer{
+        display: block;
+    }
+    
+    .subFooter{
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
+    
+    .subFooter .input .icons{
+        vertical-align: -20%;
+    }
+
+    .copyrights{
+        display: block;
+        text-align: center;
+        padding: 2rem 1rem 1rem;
+    }
+
+    .copyrights img{
+        width: 100%;
+        margin-top: 1rem;
+    }
+
+    .socialIcons{
+        display: flex;
+        margin-top: 0;
+    }
+
+    .logo{
+        display: flex;
+        position: fixed;
+        left: 35px;
+    }
+
+    #menu-icon {
+        display: block;
+    }
+
+    nav{
+        background: white;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 10vh;
+    }
+
+    nav ul{
+        position: fixed;
+        top: 9vh;
+        right: 0;
+        width: 50%;
+        height: 90vh;
+        background: white;
+        flex-direction: column;
+        text-align: center;
+        transform: translateX(100%);
+        transition: all .5s ease in;
+        padding: 3rem 0;
+    }
+
+    .navMenu{
+        transition: all .3s;
+    }
+   
+}
+
+.navActive{
+    transform: translateX(0);
+}

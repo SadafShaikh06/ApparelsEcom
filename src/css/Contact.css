@@ -1,0 +1,127 @@
+.map iframe{
+    width: 100vw;
+    height: 80vh;
+}
+
+.formParent{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 3rem 0;
+}
+
+.formDiv h1{
+    font-weight: 400;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.subform{
+    display: flex;
+}
+
+.subform .formOne{
+    margin-right: 1rem;
+}
+
+.subform .formOne input{
+    padding: .8rem 1rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    border: 1px solid rgb(194,194,210);
+}
+
+.subform .formOne input:focus{
+    outline: none;
+}
+
+.formDiv textarea{
+    width: 100%;
+    padding: 1rem;
+    height: 12rem;
+    margin: 1rem 0;
+    border: 1px solid rgb(194,194,210);
+}
+
+.formDiv textarea:focus{
+    outline: none;
+}
+
+.formDiv button{
+    padding: .9rem 3.4rem;
+    font-size: 1.1rem;
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.formDiv button:hover{
+    background: white;
+    color: black;
+}
+
+.textDiv{
+    display: flex;
+    flex-direction: column;
+}
+
+.textDiv .address{
+    padding: 2.5rem 3.5rem 2rem 0;
+    border-bottom: 1px solid rgb(194,194,210);
+}
+
+.textDiv .address h4{
+    font-size: 1.3rem;
+    font-weight: 400;
+    margin-bottom: .8rem;
+}
+
+.textDiv .fax{
+    border-bottom: none;
+}
+
+
+@media (min-width:1024px){
+
+    .subform .formOne input{
+        width: 20vw;
+    }
+
+    .formDiv textarea{
+        width: 62vw;
+    }
+}
+
+@media (min-width:768px) and (max-width:1023px){
+
+    .formParent{
+        flex-direction: column;
+        padding: 2rem;
+    }
+
+    .subform .formOne input{
+        width: 30vw;
+    }
+
+    .formDiv textarea{
+        width: 100%;
+    }
+}
+
+@media (min-width:320px) and (max-width:768px){
+
+    .formParent{
+        display: block;
+        padding: 2rem;
+    }
+    .subform{
+        display: block;
+    }
+
+    .subform .formOne input{
+        width: 100%;
+    }
+    
+    .formDiv textarea{
+        width: 100%;
+    }
+}
