@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/ApparelsEcom/static/css/main.32dc291d.css",
+    "main.js": "/ApparelsEcom/static/js/main.7baec40c.js",
+    "static/js/266.e007d467.chunk.js": "/ApparelsEcom/static/js/266.e007d467.chunk.js",
+    "static/js/964.421ae814.chunk.js": "/ApparelsEcom/static/js/964.421ae814.chunk.js",
+    "static/css/727.5b32dbcb.chunk.css": "/ApparelsEcom/static/css/727.5b32dbcb.chunk.css",
+    "static/js/727.a3279805.chunk.js": "/ApparelsEcom/static/js/727.a3279805.chunk.js",
+    "static/js/250.c295b747.chunk.js": "/ApparelsEcom/static/js/250.c295b747.chunk.js",
+    "static/js/557.aa29dbbf.chunk.js": "/ApparelsEcom/static/js/557.aa29dbbf.chunk.js",
+    "static/js/707.f6644362.chunk.js": "/ApparelsEcom/static/js/707.f6644362.chunk.js",
+    "static/js/787.dcc73137.chunk.js": "/ApparelsEcom/static/js/787.dcc73137.chunk.js",
+    "index.html": "/ApparelsEcom/index.html",
+    "main.32dc291d.css.map": "/ApparelsEcom/static/css/main.32dc291d.css.map",
+    "main.7baec40c.js.map": "/ApparelsEcom/static/js/main.7baec40c.js.map",
+    "266.e007d467.chunk.js.map": "/ApparelsEcom/static/js/266.e007d467.chunk.js.map",
+    "964.421ae814.chunk.js.map": "/ApparelsEcom/static/js/964.421ae814.chunk.js.map",
+    "727.5b32dbcb.chunk.css.map": "/ApparelsEcom/static/css/727.5b32dbcb.chunk.css.map",
+    "727.a3279805.chunk.js.map": "/ApparelsEcom/static/js/727.a3279805.chunk.js.map",
+    "250.c295b747.chunk.js.map": "/ApparelsEcom/static/js/250.c295b747.chunk.js.map",
+    "557.aa29dbbf.chunk.js.map": "/ApparelsEcom/static/js/557.aa29dbbf.chunk.js.map",
+    "707.f6644362.chunk.js.map": "/ApparelsEcom/static/js/707.f6644362.chunk.js.map",
+    "787.dcc73137.chunk.js.map": "/ApparelsEcom/static/js/787.dcc73137.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32dc291d.css",
+    "static/js/main.7baec40c.js"
+  ]
+}
